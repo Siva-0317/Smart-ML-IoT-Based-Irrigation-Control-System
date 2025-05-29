@@ -1,7 +1,7 @@
 from pymongo import MongoClient
 import pymongo.errors
 
-uri = "mongodb+srv://astra:astranova@smartirrigationcluster.yavh8.mongodb.net/smartirrigation?retryWrites=true&w=majority&appName=SmartIrrigationCluster"
+uri = "your mongodb url"
 
 client = MongoClient(uri, serverSelectionTimeoutMS=60000)  # 60-second timeout
 
