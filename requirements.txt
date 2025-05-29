@@ -1,0 +1,12 @@
+torch
+torchvision
+torchaudio
+scikit-learn
+pandas
+xgboost
+pymongo
+djongo
+django
+djangorestframework
+requests
+dnspython
