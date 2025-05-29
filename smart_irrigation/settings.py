@@ -8,7 +8,6 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # Secret key and debug mode
 SECRET_KEY = 'your_secret_key'
 DEBUG = True
-#ALLOWED_HOSTS = ['127.0.0.1','192.168.1.9','192.168.1.7','192.168.53.161','182.76.27.87','192.168.85.161','192.168.136.207'] #'192.168.1.6', 192.168.26.161
 ALLOWED_HOSTS = ['*']
 # Installed apps
 INSTALLED_APPS = [
@@ -57,11 +56,11 @@ WSGI_APPLICATION = 'smart_irrigation.wsgi.application'
 
 # MongoDB Configuration
 # Encode password for safe URI usage
-password = "astranova"  # Replace with your actual MongoDB password
+password = "yourpassword"  # Replace with your actual MongoDB password
 encoded_password = quote_plus(password)
 
 # MongoDB connection URI
-MONGO_URI = f"mongodb+srv://astra:{encoded_password}@smartirrigationcluster.yavh8.mongodb.net/?retryWrites=true&w=majority&appName=SmartIrrigationCluster"
+MONGO_URI = f"your url"
 
 # Initialize MongoDB client
 mongo_client = MongoClient(MONGO_URI)
