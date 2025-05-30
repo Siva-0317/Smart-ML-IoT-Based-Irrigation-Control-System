@@ -71,5 +71,6 @@ Developed by a passionate team of undergrads:
 
 -Shreyya P
 
--Harshitha KG
+-Deepan P
 
+-Harshitha KG
